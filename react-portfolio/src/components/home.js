@@ -1,8 +1,5 @@
 import React from 'react';
 import { Jumbotron, Navbar, NavbarBrand, Nav } from 'react-bootstrap';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Portfolio from './portfolio';
-import About from './about';
 import jumbotronBackground from '../../src/jumbotron.jpg';
 
 function Home() {
@@ -10,9 +7,9 @@ function Home() {
         <div>
     <Navbar fluid bg="light">
     <Navbar.Brand href="#home">Chris Warner</Navbar.Brand>
-    <Nav href="/" style={navbarTextStyle}>Home</Nav>
-    <Nav href="/portfolio" style={navbarTextStyle}>Portfolio</Nav>
-    <Nav href="/about" style={navbarTextStyle}>Contact</Nav>
+    <Nav.Link href="/" style={navbarTextStyle}>Home</Nav.Link>
+    <Nav.Link href="/portfolio" style={navbarTextStyle}>Portfolio</Nav.Link>
+    <Nav.Link href="/about" style={navbarTextStyle}>Contact</Nav.Link>
   </Navbar>
   <Jumbotron style={jumbotronStyle}>
     <h1 style={centerText}>Chris Warner</h1>
