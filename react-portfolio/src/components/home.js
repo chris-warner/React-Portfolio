@@ -1,7 +1,7 @@
 import React from 'react';
 import { Jumbotron, Navbar, NavbarBrand, Nav } from 'react-bootstrap';
 import jumbotronBackground from '../../src/jumbotron.jpg';
-
+ 
 function Home() {
     return (     
         <div>

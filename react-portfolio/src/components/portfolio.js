@@ -29,7 +29,7 @@ const centerText = {
     textAlign:'center',
     color:'black'
   }
-  
+   
   const jumbotronStyle = {
     height: '400px',
     // backgroundImage: 'url(' + background + ')',
