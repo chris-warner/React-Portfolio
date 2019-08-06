@@ -8,14 +8,15 @@ import './App.css';
 
 function App() {
   return (
-    <div fluid bg="light">
-    <Router>
-        <Route exact path="/" component={Home} />
-        <Route path="about" component={About} />
-        <Route path="/portfolio" component={Portfolio} />
-        </Router>
-    </div>
-
+    <HashRouter basename='/'>
+   <div>
+    <ul>
+     <li><Link to="/">Home</Link></li>
+     <li><Link to="/portfolio">About</Link></li>
+    </ul>
+    <hr />
+   </div>
+  </HashRouter>
   );
 }
 
