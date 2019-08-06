@@ -5,11 +5,11 @@ function NavBarComponent() {
   return (
     <div>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand href="/">React-Portfolio</Navbar.Brand>
+        <Navbar.Brand href="/react-portfolio/#/home">React-Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/#/">Home</Nav.Link>
+            <Nav.Link href="/react-portfolio/#/home">Home</Nav.Link>
             <Nav.Link href="/react-portfolio/#/portfolio">Portfolio</Nav.Link>
             <NavDropdown title="Social" id="collasible-nav-dropdown">
               <NavDropdown.Item href="https://github.com/chris-warner/">GitHub</NavDropdown.Item>
