@@ -13,6 +13,16 @@ function VerticleTimeline() {
     className="vertical-timeline-element--work"
     date="May 2019"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
+    <h3 className="vertical-timeline-element-title">FriendFinder</h3>
+    <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, CSS, Node.js, Express, Sequelize, Heroku.</h4>
+    <p>Friend finder is a survey that finds your most compatible match. It takes your survey data and compares it to a list of prior results to find the person most compatible with your personality traits.</p>
+         <a href="https://github.com/chris-warner/FriendFinder">GitHub </a><a href="https://afternoon-temple-47575.herokuapp.com/">Demo</a>
+  </VerticalTimelineElement>
+
+<VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="May 2019"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
     <h3 className="vertical-timeline-element-title">bamazon</h3>
     <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: Javascript, Node.js, MySQL and express. Bamazon is an Amazon-like storefront utilizing Node and MySQL. </h4>
     <p>To use it, type node bamazonCustomer.js in the terminal. You will be presented with a database of products. Enter the product ID you would like to to purchase and quantity of items in the following terminal prompt. If there are enough items in stock, the purchase will be successful and you will be presented with the order total. The stock_quantity field will then be updated in mysql to reflect the current value. This is a program that runs in the terminal so there is no live demo.</p>
