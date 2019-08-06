@@ -6,8 +6,19 @@ import 'react-vertical-timeline-component/style.min.css';
 function VerticleTimeline() {
     return (
     <div>
-
+<center><h1>Portfolio</h1></center>
 <VerticalTimeline>
+
+<VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="May 2019"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+  >
+    <h3 className="vertical-timeline-element-title">GifTastic</h3>
+    <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, CSS, Giphy API, javascript and JQuery.</h4>
+    <p>This program displays animal gifs based on the selected animal button. If the animal you would like to search for doesn't exist, type in the name of the animal in the text field and hit submit. This will add the animal to the list of animal buttons. Click the buttons search giphy for animated images! </p>
+         <a href="https://github.com/chris-warner/GifTastic">GitHub </a><a href="https://chris-warner.github.io/GifTastic/">Demo</a>
+  </VerticalTimelineElement>
 
 <VerticalTimelineElement
     className="vertical-timeline-element--work"
@@ -36,5 +47,7 @@ function VerticleTimeline() {
 </VerticalTimeline>
     </div>
     );
+
 }
+
 export default VerticleTimeline;
