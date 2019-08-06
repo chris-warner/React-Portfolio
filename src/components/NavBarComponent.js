@@ -9,8 +9,8 @@ function NavBarComponent() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="react-portfolio/#/">Home</Nav.Link>
-            <Nav.Link href="react-portfolio/#/portfolio">Portfolio</Nav.Link>
+            <Nav.Link href="/#/">Home</Nav.Link>
+            <Nav.Link href="/#/portfolio">Portfolio</Nav.Link>
             <NavDropdown title="Social" id="collasible-nav-dropdown">
               <NavDropdown.Item href="https://github.com/chris-warner/">GitHub</NavDropdown.Item>
               <NavDropdown.Item href="https://www.linkedin.com/in/chris-warner-developer/">LinkedIn</NavDropdown.Item>
