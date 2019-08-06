@@ -13,6 +13,16 @@ function VerticleTimeline() {
     className="vertical-timeline-element--work"
     date="May 2019"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
+    <h3 className="vertical-timeline-element-title">Eat Da Burger</h3>
+    <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project:  HTML, CSS, Node.js, Express, Handlebars, Sequelize, Heroku, JawsDB, MySQL.</h4>
+    <p>Eat Da Burger is a node applicastion that utilized express, express-handlebars and mysql. Enter a burger in the textbox and hit submit to add the burger to the queue. This adds a burger to the table in mysql. Hit Devour It to "devour" the burger, and check "devoured" in said database to true.</p>
+         <a href="https://github.com/chris-warner/FriendFinder">GitHub </a><a href="https://afternoon-temple-47575.herokuapp.com/">Demo</a>
+  </VerticalTimelineElement>
+
+<VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="May 2019"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
     <h3 className="vertical-timeline-element-title">FriendFinder</h3>
     <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, CSS, Node.js, Express, Sequelize, Heroku.</h4>
     <p>Friend finder is a survey that finds your most compatible match. It takes your survey data and compares it to a list of prior results to find the person most compatible with your personality traits.</p>
