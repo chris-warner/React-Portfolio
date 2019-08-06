@@ -9,6 +9,7 @@ import './App.css';
 function App() {
   return (
     <div fluid bg="light">
+      <h1>Website</h1>
     <Router>
         <Route exact path="/" component={Home} />
         <Route path="about" component={About} />
