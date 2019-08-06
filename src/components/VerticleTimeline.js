@@ -12,6 +12,37 @@ function VerticleTimeline() {
 <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="May 2019"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
+    <h3 className="vertical-timeline-element-title">Psychic Game</h3>
+    <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, CSS, javascript and JQuery.</h4>
+    <p>Try and guess what letter the computer picks by pressing keys. If you guess right, you win a point. If you fail to guess correctly 10 times you loose a point.</p>
+         <a href="https://github.com/chris-warner/Psychic-Game/">GitHub </a><a href="https://chris-warner.github.io/Psychic-Game/">Demo</a>
+  </VerticalTimelineElement>
+
+<VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="May 2019"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
+    <h3 className="vertical-timeline-element-title">Crystal Game</h3>
+    <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, CSS, javascript and JQuery.</h4>
+    <p>You will be given a random number at the start of the game. There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. You win the game by matching your total score to the random number, you lose if the total score goes above the random number. The value of each crystal is hidden from you until you click on it. Each time when the game starts, the game will change the values of each crystal. </p>
+         <a href="https://chris-warner.github.io/unit-4-game/">GitHub </a><a href="https://chris-warner.github.io/Crystal-Collector/">Demo</a>
+  </VerticalTimelineElement>
+
+<VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="May 2019"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+  >
+    <h3 className="vertical-timeline-element-title">Trivia Game</h3>
+    <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, CSS, javascript and JQuery.</h4>
+    <p>Technologies used in this project: html, css, javascript and jquery. You have 30 seconds to answer the trivia questions. When the timer counts down to zero, you will be presented with the score displaying how many questions you answered correctly, how many you answered incorrectly and how many questions you didn't answer. </p>
+         <a href="https://github.com/chris-warner/TriviaGame">GitHub </a><a href="https://chris-warner.github.io/TriviaGame/">Demo</a>
+  </VerticalTimelineElement>
+
+<VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="May 2019"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   >
     <h3 className="vertical-timeline-element-title">GifTastic</h3>
