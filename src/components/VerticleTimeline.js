@@ -6,8 +6,81 @@ import 'react-vertical-timeline-component/style.min.css';
 function VerticleTimeline() {
     return (
     <div>
-<center><h1>Portfolio</h1></center>
+<h1>Portfolio</h1>
 <VerticalTimeline>
+
+<VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="July 2019"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
+    <h3 className="vertical-timeline-element-title">Fugatch</h3>
+    <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, Bootstrap.</h4>
+    <p> Fugatch is a simple HTML website created for my client to post videos about his watch collection.</p>
+         <a href="https://github.com/chris-warner/fugatch">GitHub </a><a href="fugatch.com">Demo</a>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="July 2019"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
+    <h3 className="vertical-timeline-element-title">Buddy</h3>
+    <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, Bootstrap, React, Express, Sequelize, MySQL, Firebase.</h4>
+    <p>Buddy is a full stack MERN application created that allows people to rent dogs from local shelters.</p>
+         <a href="https://github.com/0dbtech/columbia-project3">GitHub </a><a href="https://aqueous-castle-76510.herokuapp.com/">Demo</a>
+  </VerticalTimelineElement>
+
+
+<VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="June 2019"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
+    <h3 className="vertical-timeline-element-title">React Tip Calculator</h3>
+    <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: React and Javascript.</h4>
+    <p>Tip calculator is a simple application that allow you to calculate a tip for your server. One of it's key features is the ability to divide the tip between multiple people. Simply fill out the form and click calculate and see the results.</p>
+         <a href="https://github.com/chris-warner/Career-Services-Coding-Challenge---Tip-Calculator">GitHub </a><a href="https://chris-warner.github.io/Career-Services-Coding-Challenge---Tip-Calculator/">Demo</a>
+  </VerticalTimelineElement>
+
+
+<VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="May - June 2019"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
+    <h3 className="vertical-timeline-element-title">MindStock</h3>
+    <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: : HTML, CSS, Node.js, Express, handlebars, Sequelize, Heroku, JawsDB, MySQL. .</h4>
+    <p>MindStock uses a personality assessment to figure out risk tolerance to help investors pick the right fund for them. It provides a starter guide through what a mutual fund is and what information is relevant to navigate the investment universe.</p>
+         <a href="https://github.com/chris-warner/Mindstock">GitHub </a><a href="https://quiet-cove-26973.herokuapp.com/">Demo</a>
+  </VerticalTimelineElement>
+
+<VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="May - June 2019"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
+    <h3 className="vertical-timeline-element-title">Clicky Game</h3>
+    <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: React.</h4>
+    <p>Test your memory with Clicky Game. Click an image to begin, try not click the same image twice. Technologies used in this project: React, React-Bootstrap.
+</p>
+         <a href="https://github.com/chris-warner/clicky-game">GitHub </a><a href="https://chris-warner.github.io/clicky-game/">Demo</a>
+  </VerticalTimelineElement>
+
+<VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="April - May 2019"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
+    <h3 className="vertical-timeline-element-title">Eat Da Burger</h3>
+    <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project:  HTML, CSS, Node.js, Express, Handlebars, Sequelize, Heroku, JawsDB, MySQL.</h4>
+    <p>Eat Da Burger is a node applicastion that utilized express, express-handlebars and mysql. Enter a burger in the textbox and hit submit to add the burger to the queue. This adds a burger to the table in mysql. Hit Devour It to "devour" the burger, and check "devoured" in said database to true.</p>
+         <a href="https://github.com/chris-warner/burger    ">GitHub </a><a href="https://fathomless-journey-20923.herokuapp.com/">Demo</a>
+  </VerticalTimelineElement>
+
+<VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="May 2019"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
+    <h3 className="vertical-timeline-element-title">FriendFinder</h3>
+    <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, CSS, Node.js, Express, Sequelize, Heroku.</h4>
+    <p>Friend finder is a survey that finds your most compatible match. It takes your survey data and compares it to a list of prior results to find the person most compatible with your personality traits.</p>
+         <a href="https://github.com/chris-warner/FriendFinder">GitHub </a><a href="https://afternoon-temple-47575.herokuapp.com/">Demo</a>
+  </VerticalTimelineElement>
 
 <VerticalTimelineElement
     className="vertical-timeline-element--work"
