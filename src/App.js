@@ -1,6 +1,6 @@
 import React from 'react';
 import { Jumbotron, Navbar, NavbarBrand, Nav } from 'react-bootstrap';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter, Route, Link } from "react-router-dom";
 import Portfolio from './components/portfolio';
 import About from './components/about';
 import Home from './components/home';
@@ -12,9 +12,11 @@ function App() {
    <div>
     <ul>
      <li><Link to="/">Home</Link></li>
-     <li><Link to="/portfolio">About</Link></li>
+     <li><Link to="/about">About</Link></li>
     </ul>
     <hr />
+    <Route exact path="/" component={Home} />
+    <Route path="/about" component={About} />
    </div>
   </HashRouter>
   );
@@ -46,4 +48,6 @@ const navbarTextStyle = {
   marginRight: '12px',
   alignText: 'center'
 }
+
+
 export default App;
