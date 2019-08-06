@@ -1,12 +1,13 @@
 import React from 'react';
 import jumbotronBackground from '../../src/jumbotron.jpg';
 import NavBarComponent from './NavBarComponent';
-import { Jumbotron, Navbar, NavbarBrand, Nav,NavDropdown } from 'react-bootstrap';
+import VerticleTimeline from './VerticleTimeline';
 
 function Portfolio() {
     return (     
     <div>
       <NavBarComponent />
+      <VerticleTimeline />
     </div>
   );
 }
