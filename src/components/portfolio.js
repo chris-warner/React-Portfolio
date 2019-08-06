@@ -1,23 +1,13 @@
 import React from 'react';
-import { Jumbotron, Navbar, NavbarBrand, Nav } from 'react-bootstrap';
 import jumbotronBackground from '../../src/jumbotron.jpg';
+import NavBarComponent from './NavBarComponent';
+import { Jumbotron, Navbar, NavbarBrand, Nav,NavDropdown } from 'react-bootstrap';
 
 function Portfolio() {
     return (     
-        <div>
-    <Navbar fluid bg="light">
-    <Navbar.Brand href="#home">Chris Warner</Navbar.Brand>
-    <Nav.Link href="/" style={navbarTextStyle}>Home</Nav.Link>
-    <Nav.Link href="/portfolio" style={navbarTextStyle}>Portfolio</Nav.Link>
-    <Nav.Link href="/about" style={navbarTextStyle}>Contact</Nav.Link>
-  </Navbar>
-  <Jumbotron style={jumbotronStyle}>
-    <h1 style={centerText}>Portfolio</h1>
-    <p style={centerText}></p>
-  </Jumbotron>
-  <header className="App-header">
-  </header>
-  </div> 
+    <div>
+      <NavBarComponent />
+    </div>
   );
 }
 
