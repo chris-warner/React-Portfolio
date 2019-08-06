@@ -6,7 +6,6 @@ import 'react-vertical-timeline-component/style.min.css';
 function VerticleTimeline() {
     return (
     <div>
-<h1>Portfolio</h1>
 <VerticalTimeline>
 <VerticalTimelineElement
     className="vertical-timeline-element--work"
