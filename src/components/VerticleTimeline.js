@@ -17,7 +17,7 @@ function VerticleTimeline() {
     <p> Fugatch is a simple HTML website created for my client to post videos about his watch collection.</p>
 
   {/*    <div> <ButtonGroup><Button href="https://github.com/chris-warner/fugatch">GitHub</Button>     <Button href="fugatch.com">Demo</Button> </ButtonGroup></div> */}
-        <div> <a href="https://github.com/chris-warner/fugatch">GitHub </a><a href="fugatch.com">Demo</a></div>
+        <div> <a href="https://github.com/chris-warner/fugatch">GitHub </a><a href="https://www.fugatch.com">Demo</a></div>
   </VerticalTimelineElement>
 
   <VerticalTimelineElement
