@@ -13,6 +13,16 @@ function VerticleTimeline() {
     className="vertical-timeline-element--work"
     date="May 2019"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
+    <h3 className="vertical-timeline-element-title">Liri Node App</h3>
+    <h4 className="vertical-timeline-element-subtitle"> Javascript, Node.js, axios, dotenv, Spotify API, Bands in Town API. </h4>
+    <p>Use Liri to find the latest Concerts, Bands, and songs you love, from your console. Using Spotify, Bandsintown and omdb, Liri can retrieve concert dates for your favorite bands, movie information for your favorite films, song information for you favorite songs. This is a program that runs in the terminal so there is no live demo.</p>
+         <a href="https://github.com/chris-warner/liri-node-app">GitHub </a>
+  </VerticalTimelineElement>
+
+<VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="May 2019"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
     <h3 className="vertical-timeline-element-title">Psychic Game</h3>
     <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, CSS, javascript and JQuery.</h4>
     <p>Try and guess what letter the computer picks by pressing keys. If you guess right, you win a point. If you fail to guess correctly 10 times you loose a point.</p>
