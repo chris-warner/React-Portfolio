@@ -1,13 +1,17 @@
 import React from 'react';
-import jumbotronBackground from '../../src/jumbotron.jpg';
+import jumbotronBackground from '../../src/components/react.png';
 import NavBarComponent from './NavBarComponent';
 import VerticleTimeline from './VerticleTimeline';
+import FooterComponent from './FooterComponent';
+import { Jumbotron } from 'react-bootstrap';
 
 function Portfolio() {
     return (     
     <div>
       <NavBarComponent />
+      <center><h1 style={titleStyle}>Projects and development.</h1></center>
       <VerticleTimeline />
+      <FooterComponent />
     </div>
   );
 }
@@ -22,14 +26,16 @@ const centerText = {
   }
    
   const jumbotronStyle = {
-    height: '400px',
+    height: '300px',
     // backgroundImage: 'url(' + background + ')',
-    backgroundSize: 'cover',
     align: 'center',
-    color: 'white',
-    backgroundColor:'silver',
-    backgroundImage: 'url('+jumbotronBackground+')'
-  }
+    color: 'black',
+    textAlign: 'center',
+    verticalAlign: 'middle',
+    lineHeight: '90px',
+    paddingTop:'100px'
+}
+  
   
   const navbarStyle = {
     height: '100px',
@@ -39,5 +45,9 @@ const centerText = {
     color: 'black',
     marginRight: '12px',
     alignText: 'center'
+  }
+
+  const titleStyle = {
+    marginTop:'32px'
   }
 export default Portfolio;
