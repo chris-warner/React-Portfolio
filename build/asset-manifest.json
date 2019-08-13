@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.9f9c6668.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.b3b756a0.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.b3b756a0.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.cfe63c28.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.570343e1.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.570343e1.chunk.js.map",
     "runtime~main.js": "/react-portfolio/static/js/runtime~main.f974a8eb.js",
     "runtime~main.js.map": "/react-portfolio/static/js/runtime~main.f974a8eb.js.map",
-    "static/css/2.d819a5bb.chunk.css": "/react-portfolio/static/css/2.d819a5bb.chunk.css",
-    "static/js/2.91b0a9c0.chunk.js": "/react-portfolio/static/js/2.91b0a9c0.chunk.js",
-    "static/js/2.91b0a9c0.chunk.js.map": "/react-portfolio/static/js/2.91b0a9c0.chunk.js.map",
+    "static/js/2.d7d86685.chunk.js": "/react-portfolio/static/js/2.d7d86685.chunk.js",
+    "static/js/2.d7d86685.chunk.js.map": "/react-portfolio/static/js/2.d7d86685.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.56c0e4779dc53d32c7b2121106320b95.js": "/react-portfolio/precache-manifest.56c0e4779dc53d32c7b2121106320b95.js",
+    "precache-manifest.9bfc051aa58f9c05def2df831754f270.js": "/react-portfolio/precache-manifest.9bfc051aa58f9c05def2df831754f270.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/2.d819a5bb.chunk.css.map": "/react-portfolio/static/css/2.d819a5bb.chunk.css.map",
-    "static/css/main.9f9c6668.chunk.css.map": "/react-portfolio/static/css/main.9f9c6668.chunk.css.map",
-    "static/media/chris-warner.png": "/react-portfolio/static/media/chris-warner.4889c7fb.png",
-    "static/media/jumbotron.jpg": "/react-portfolio/static/media/jumbotron.46bc0200.jpg"
+    "static/css/main.cfe63c28.chunk.css.map": "/react-portfolio/static/css/main.cfe63c28.chunk.css.map",
+    "static/media/chris-warner.png": "/react-portfolio/static/media/chris-warner.8d6d2c69.png",
+    "static/media/jumbotron.jpg": "/react-portfolio/static/media/jumbotron.46bc0200.jpg",
+    "static/media/react.png": "/react-portfolio/static/media/react.80687d23.png"
   }
 }

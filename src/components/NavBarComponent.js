@@ -26,8 +26,8 @@ function NavBarComponent() {
 
 const navbarStyle = {
  color:"white",
- bg:"#2c3e50",
- backgroundColor:"#2c3e50"
+ bg:"#4285f4",
+ backgroundColor:"#4285f4"
 }
 
 
