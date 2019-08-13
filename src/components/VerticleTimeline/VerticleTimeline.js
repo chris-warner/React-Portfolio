@@ -1,5 +1,4 @@
 import React from 'react';
-import { Jumbotron, Navbar, NavbarBrand, Nav,NavDropdown, Button, ButtonGroup } from 'react-bootstrap';
 import { VerticalTimeline, VerticalTimelineElement,WorkIcon }  from 'react-vertical-timeline-component';
 import './style.min.css';
 
@@ -12,6 +11,7 @@ function VerticleTimeline() {
     date="July 2019"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
     <h3 className="vertical-timeline-element-title">Fugatch</h3>
+    <img src='../assets/img/react.png'/>
     <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, Bootstrap.</h4>
     <p> Fugatch is a simple HTML website created for my client to post videos about his watch collection.</p>
 

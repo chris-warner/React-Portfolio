@@ -1,9 +1,9 @@
 import React from 'react';
 import { Jumbotron, Navbar, NavbarBrand, Nav } from 'react-bootstrap';
 import { HashRouter, Route, Link } from "react-router-dom";
-import Portfolio from './components/portfolio';
-import About from './components/about';
-import Home from './components/home';
+import Portfolio from './components/Pages/Portfolio/portfolio';
+import About from './components/Pages/About/about';
+import Home from './components/Pages/Home/home';
 import './App.css';
 
 function App() {

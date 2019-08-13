@@ -1,7 +1,6 @@
 import React from 'react';
-import { Jumbotron, Navbar, NavbarBrand, Nav } from 'react-bootstrap';
-import jumbotronBackground from '../../src/jumbotron.jpg';
-import NavBarComponent from './NavBarComponent';
+import { Jumbotron } from 'react-bootstrap';
+import NavBarComponent from '../../NavBar/NavBarComponent';
 
 function About() {
   return (
@@ -9,12 +8,10 @@ function About() {
       <header className="App-header">
         <NavBarComponent />
       </header>
-
       <Jumbotron style={jumbotronStyle}>
         <h1 style={centerText}>Chris Warner</h1>
         <p style={centerText}>Hello, my name is Christopher Warner. I am a web developer and designer from New York City.I am a full stack developer educated student currently studying at Columbia University. I have been exposed to programming since the 7th grade, having developed many creative projects.</p>
       </Jumbotron>
-
     </div>
   );
 }
@@ -30,12 +27,10 @@ const centerText = {
 
 const jumbotronStyle = {
   height: '400px',
-  // backgroundImage: 'url(' + background + ')',
   backgroundSize: 'cover',
   align: 'center',
   color: 'white',
   backgroundColor: 'silver',
-  backgroundImage: 'url(' + jumbotronBackground + ')'
 }
 
 const navbarStyle = {

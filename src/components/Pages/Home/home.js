@@ -1,9 +1,7 @@
 import React from 'react';
-import { Jumbotron, Navbar, NavbarBrand, Nav, Button, Image } from 'react-bootstrap';
-import jumbotronBackground from '../../src/jumbotron.jpg';
-import NavBarComponent from './NavBarComponent';
-import FooterComponent from './FooterComponent';
-import me from '../assets/img/chris-warner.png';
+import NavBarComponent from '../../NavBar/NavBarComponent';
+import FooterComponent from '../../Footer/FooterComponent';
+import me from '../../../assets/img/me.png';
 import './home.css';
 
 function Home() {

@@ -1,9 +1,7 @@
 import React from 'react';
-import jumbotronBackground from '../../src/components/react.png';
-import NavBarComponent from './NavBarComponent';
-import VerticleTimeline from './VerticleTimeline';
-import FooterComponent from './FooterComponent';
-import { Jumbotron } from 'react-bootstrap';
+import NavBarComponent from '../../NavBar/NavBarComponent';
+import VerticleTimeline from '../../VerticleTimeline/VerticleTimeline';
+import FooterComponent from '../../Footer/FooterComponent';
 
 function Portfolio() {
     return (     
