@@ -7,7 +7,6 @@ import './home.css';
 function Home() {
   return (
     <div>
-
       <NavBarComponent />
       <div class="container d-flex align-items-center flex-column">
         <br></br>
