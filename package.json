@@ -2,10 +2,10 @@
   "name": "react-portfolio",
   "version": "1.0.1",
   "private": false,
-  "homepage": "https://chris-warner.github.io/react-portfolio/",
+  "homepage": "https://chris-warner.github.io/React-Portfolio/",
   "license": "MIT",
   "dependencies": {
-    "gh-pages": "^2.1.0",
+    "gh-pages": "^2.2.0",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.9",
     "react-dom": "^16.8.6",
