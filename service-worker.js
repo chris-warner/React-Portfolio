@@ -14,11 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-<<<<<<< Updated upstream:service-worker.js
-  "/react-portfolio/precache-manifest.2ae88b1b18619b394d76f5a59f9cc0c8.js"
-=======
   "/react-portfolio/precache-manifest.7a566148c69cc56f4f37fab437af2375.js"
->>>>>>> Stashed changes:build/service-worker.js
 );
 
 self.addEventListener('message', (event) => {
