@@ -21,7 +21,7 @@ function NavBarComponent() {
         </Navbar.Collapse>
       </Navbar>
     </div>
-  );
+  ); 
 }
 
 export default NavBarComponent;
