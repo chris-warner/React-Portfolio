@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "www.chriswarner.tech/static/css/main.daa6759d.chunk.css",
-    "main.js": "www.chriswarner.tech/static/js/main.787a995f.chunk.js",
-    "main.js.map": "www.chriswarner.tech/static/js/main.787a995f.chunk.js.map",
-    "runtime~main.js": "www.chriswarner.tech/static/js/runtime~main.12949ff3.js",
-    "runtime~main.js.map": "www.chriswarner.tech/static/js/runtime~main.12949ff3.js.map",
-    "static/js/2.9c9d01bd.chunk.js": "www.chriswarner.tech/static/js/2.9c9d01bd.chunk.js",
-    "static/js/2.9c9d01bd.chunk.js.map": "www.chriswarner.tech/static/js/2.9c9d01bd.chunk.js.map",
-    "index.html": "www.chriswarner.tech/index.html",
-    "precache-manifest.7fc2b5d7a3f3de9b8683eabd3a18461e.js": "www.chriswarner.tech/precache-manifest.7fc2b5d7a3f3de9b8683eabd3a18461e.js",
-    "service-worker.js": "www.chriswarner.tech/service-worker.js",
-    "static/css/main.daa6759d.chunk.css.map": "www.chriswarner.tech/static/css/main.daa6759d.chunk.css.map",
-    "static/media/clicky-game.jpg": "www.chriswarner.tech/static/media/clicky-game.6b170b4f.jpg",
-    "static/media/me.png": "www.chriswarner.tech/static/media/me.0fc602fc.png"
+    "main.css": "/static/css/main.daa6759d.chunk.css",
+    "main.js": "/static/js/main.04e1bb78.chunk.js",
+    "main.js.map": "/static/js/main.04e1bb78.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.b1adf07e.chunk.js": "/static/js/2.b1adf07e.chunk.js",
+    "static/js/2.b1adf07e.chunk.js.map": "/static/js/2.b1adf07e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.aadf5a5c4425cdd12d3554c5dcb178f8.js": "/precache-manifest.aadf5a5c4425cdd12d3554c5dcb178f8.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.daa6759d.chunk.css.map": "/static/css/main.daa6759d.chunk.css.map",
+    "static/media/clicky-game.jpg": "/static/media/clicky-game.6b170b4f.jpg",
+    "static/media/me.png": "/static/media/me.0fc602fc.png"
   }
 }
