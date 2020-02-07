@@ -3,7 +3,6 @@ import { VerticalTimeline, VerticalTimelineElement, WorkIcon } from 'react-verti
 import { } from "module";
 import './style.min.css';
 import './verticleTimelineContent.css';
-
 import clickyGameImage from '../../assets/img/clicky-game.jpg';
 
 function VerticleTimeline() {
@@ -61,7 +60,7 @@ function VerticleTimeline() {
           layout={'3-columns'}
           icon={<img className="contentImage" src={clickyGameImage} />}>
           <h3 className="vertical-timeline-element-title">Clicky Game</h3>
-          <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: React.</h4>
+            <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: React.</h4>
           <p>Test your memory with Clicky Game. Click an image to begin, try not click the same image twice. Technologies used in this project: React, React-Bootstrap.
 </p>
           <div> <a href="https://github.com/chris-warner/clicky-game">GitHub </a><a href="https://chris-warner.github.io/clicky-game/">Demo</a></div>
