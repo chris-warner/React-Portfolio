@@ -33,13 +33,4 @@ const jumbotronStyle = {
   backgroundColor: 'silver',
 }
 
-const navbarStyle = {
-  height: '100px',
-}
-
-const navbarTextStyle = {
-  color: 'black',
-  marginRight: '12px',
-  alignText: 'center'
-}
 export default About;

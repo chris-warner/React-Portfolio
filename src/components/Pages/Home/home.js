@@ -31,18 +31,6 @@ function Home() {
   );
 }
 
-const btnStyle = {
-  alignItems: 'center',
-  display: 'flex',
-  justifyContent: 'center',
-  margin: '-20px -50px',
-  position: 'relative',
-  top: '50%',
-  left: '50%',
-  alignText: 'center'
-
-}
-
 const centerText = {
   display: 'flex',
   justifyContent: 'center',
@@ -52,19 +40,4 @@ const centerText = {
   color: 'black'
 }
 
-const jumbotronStyle = {
-  height: '500px',
-  // backgroundImage: 'url(' + background + ')',
-  backgroundSize: 'cover',
-  align: 'center',
-  backgroundColor: 'white',
-  //backgroundImage: 'url(' + jumbotronBackground + ')'
-}
-
-
-const navbarTextStyle = {
-  color: 'black',
-  marginRight: '12px',
-  alignText: 'center'
-}
 export default Home;

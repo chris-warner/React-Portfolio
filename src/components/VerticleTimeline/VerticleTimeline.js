@@ -4,6 +4,11 @@ import { } from "module";
 import './style.min.css';
 import './verticleTimelineContent.css';
 import clickyGameImage from '../../assets/img/clicky-game.jpg';
+import tipCalculatorImage from '../../assets/img/tip.jpeg';
+import mindStockImage from '../../assets/img/MindStock.png';
+import friendFinderImage from '../../assets/img/FriendFinder.png';
+
+
 
 function VerticleTimeline() {
   return (
@@ -35,7 +40,9 @@ function VerticleTimeline() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="June 2019"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          icon={<img className="contentImage" src={tipCalculatorImage} />}>
+          >
           <h3 className="vertical-timeline-element-title">React Tip Calculator</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: React and Javascript.</h4>
           <p>Tip calculator is a simple application that allow you to calculate a tip for your server. One of it's key features is the ability to divide the tip between multiple people. Simply fill out the form and click calculate and see the results.</p>
@@ -46,7 +53,9 @@ function VerticleTimeline() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="May - June 2019"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          icon={<img className="contentImage" src={mindStockImage} />}
+          >
           <h3 className="vertical-timeline-element-title">MindStock</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: : HTML, CSS, Node.js, Express, handlebars, Sequelize, Heroku, JawsDB, MySQL. .</h4>
           <p>MindStock uses a personality assessment to figure out risk tolerance to help investors pick the right fund for them. It provides a starter guide through what a mutual fund is and what information is relevant to navigate the investment universe.</p>
@@ -79,7 +88,9 @@ function VerticleTimeline() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="May 2019"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          icon={<img className="contentImage" src={friendFinderImage} />}>
+          >
           <h3 className="vertical-timeline-element-title">FriendFinder</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, CSS, Node.js, Express, Sequelize, Heroku.</h4>
           <p>Friend finder is a survey that finds your most compatible match. It takes your survey data and compares it to a list of prior results to find the person most compatible with your personality traits.</p>
