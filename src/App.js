@@ -1,6 +1,5 @@
 import React from 'react';
-import { Jumbotron, Navbar, NavbarBrand, Nav } from 'react-bootstrap';
-import { HashRouter, Route, Link } from "react-router-dom";
+import {HashRouter, Route} from "react-router-dom";
 import Portfolio from './components/Pages/Portfolio/portfolio';
 import About from './components/Pages/About/about';
 import Home from './components/Pages/Home/home';
@@ -19,33 +18,5 @@ function App() {
   </HashRouter>
   );
 }
-
-const centerText = {
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
-  marginTop:'50px',
-  textAlign:'center'
-}
-
-const jumbotronStyle = {
-  height: '400px',
-  // backgroundImage: 'url(' + background + ')',
-  backgroundSize: 'cover',
-  align: 'center',
-  color: 'white',
-  backgroundColor:'silver'
-}
-
-const navbarStyle = {
-  height: '100px',
-}
-
-const navbarTextStyle = {
-  color: 'black',
-  marginRight: '12px',
-  alignText: 'center'
-}
-
 
 export default App;
