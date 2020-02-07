@@ -1,3 +1,3 @@
 # React-Portfolio
 ## Technologies used in this project: React, CSS, Javascript, HTML.
-This is my personal website and portfolio, coded using react. I plan on replacing my bootstrap portfolio with this in the near future.
+This is my personal website and portfolio, coded using react.

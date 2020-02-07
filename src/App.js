@@ -10,8 +10,6 @@ function App() {
     <HashRouter basename='/'>
    <div>
     <Route exact path="/" component={Home} />
-    <Route exact path="/index" component={Home} />
-    <Route exact path="/#" component={Home} />
     <Route exact path="/portfolio" component={Portfolio} />
     <Route path="/about" component={About} />
    </div>
