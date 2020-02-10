@@ -41,7 +41,7 @@ function VerticleTimeline() {
           className="vertical-timeline-element--work"
           date="June 2019"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<img className="contentImage" src={tipCalculatorImage} />}>
+          icon={<img className="contentImage" src={tipCalculatorImage} />}
           >
           <h3 className="vertical-timeline-element-title">React Tip Calculator</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: React and Javascript.</h4>
