@@ -13,3 +13,8 @@
     color: white;
     background-color:#4285f4;
    }
+
+.Navbar.Collapse {
+    position: fixed;
+    right: 0px;
+}
