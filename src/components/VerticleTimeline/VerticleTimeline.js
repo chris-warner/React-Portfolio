@@ -1,6 +1,5 @@
 import React from 'react';
-import { VerticalTimeline, VerticalTimelineElement, WorkIcon } from 'react-vertical-timeline-component';
-import { } from "module";
+import { VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline-component';
 import './style.min.css';
 import './verticleTimelineContent.css';
 import clickyGameImage from '../../assets/img/clicky-game.jpg';
@@ -25,11 +24,12 @@ function VerticleTimeline() {
   return (
     <div>
       <VerticalTimeline>
-        <VerticalTimelineElement
+      
+          <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="July 2019"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<img className="contentImage" src={fugatchImage} />}
+          icon={<img alt="Fugatch"  className="contentImage" src={fugatchImage} />}
           >
           <h3 className="vertical-timeline-element-title">Fugatch</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, Bootstrap.</h4>
@@ -39,11 +39,13 @@ function VerticleTimeline() {
           <div> <a href="https://github.com/chris-warner/fugatch">GitHub </a><a href="https://www.fugatch.com">Demo</a></div>
         </VerticalTimelineElement>
 
+       
+
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="July 2019"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<img className="contentImage" src={buddyImage} />}
+          icon={<img alt="Buddy" className="contentImage" src={buddyImage} />}
           >
           <h3 className="vertical-timeline-element-title">Buddy</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, Bootstrap, React, Express, Sequelize, MySQL, Firebase.</h4>
@@ -56,7 +58,8 @@ function VerticleTimeline() {
           className="vertical-timeline-element--work"
           date="June 2019"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<img className="contentImage" src={tipCalculatorImage} />}
+          icon={<img alt="React Tip Calculator" className="contentImage" src={tipCalculatorImage} />}
+          
         >
           <h3 className="vertical-timeline-element-title">React Tip Calculator</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: React and Javascript.</h4>
@@ -69,7 +72,7 @@ function VerticleTimeline() {
           className="vertical-timeline-element--work"
           date="May - June 2019"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<img className="contentImage" src={mindStockImage} />}
+          icon={<img alt="Mind Stock" className="contentImage" src={mindStockImage} />}
         >
           <h3 className="vertical-timeline-element-title">MindStock</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: : HTML, CSS, Node.js, Express, handlebars, Sequelize, Heroku, JawsDB, MySQL. .</h4>
@@ -82,7 +85,7 @@ function VerticleTimeline() {
           date="May - June 2019"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           layout={'3-columns'}
-          icon={<img className="contentImage" src={clickyGameImage} />}>
+          icon={<img  alt="Clicky Game" className="contentImage" src={clickyGameImage} />}>
           <h3 className="vertical-timeline-element-title">Clicky Game</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: React.</h4>
           <p>Test your memory with Clicky Game. Click an image to begin, try not click the same image twice. Technologies used in this project: React, React-Bootstrap.
@@ -94,7 +97,7 @@ function VerticleTimeline() {
           className="vertical-timeline-element--work"
           date="April - May 2019"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<img className="contentImage" src={burgerImage} />}
+          icon={<img alt="Eat Da Burger" className="contentImage" src={burgerImage} />}
           >
           <h3 className="vertical-timeline-element-title">Eat Da Burger</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project:  HTML, CSS, Node.js, Express, Handlebars, Sequelize, Heroku, JawsDB, MySQL.</h4>
@@ -106,7 +109,7 @@ function VerticleTimeline() {
           className="vertical-timeline-element--work"
           date="May 2019"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<img className="contentImage" src={friendFinderImage} />}
+          icon={<img alt="Friend Finder" className="contentImage" src={friendFinderImage} />}
           >
           <h3 className="vertical-timeline-element-title">FriendFinder</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, CSS, Node.js, Express, Sequelize, Heroku.</h4>
@@ -118,7 +121,7 @@ function VerticleTimeline() {
           className="vertical-timeline-element--work"
           date="May 2019"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<img className="contentImage" src={bamazonImage} />}
+          icon={<img alt="bamazon" className="contentImage" src={bamazonImage} />}
           >
           <h3 className="vertical-timeline-element-title">bamazon</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: Javascript, Node.js, MySQL and express. Bamazon is an Amazon-like storefront utilizing Node and MySQL. </h4>
@@ -130,7 +133,7 @@ function VerticleTimeline() {
           className="vertical-timeline-element--work"
           date="March - May 2019"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<img className="contentImage" src={liriImage} />}>
+          icon={<img alt="Liri Node App"  className="contentImage" src={liriImage} />}>
           <h3 className="vertical-timeline-element-title">Liri Node App</h3>
           <h4 className="vertical-timeline-element-subtitle"> Javascript, Node.js, axios, dotenv, Spotify API, Bands in Town API. </h4>
           <p>Use Liri to find the latest Concerts, Bands, and songs you love, from your console. Using Spotify, Bandsintown and omdb, Liri can retrieve concert dates for your favorite bands, movie information for your favorite films, song information for you favorite songs. This is a program that runs in the terminal so there is no live demo.</p>
@@ -141,7 +144,7 @@ function VerticleTimeline() {
           className="vertical-timeline-element--work"
           date="May 2019"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<img className="contentImage" src={psychicGameImage} />}>
+          icon={<img alt="psychic game" className="contentImage" src={psychicGameImage} />}>
           <h3 className="vertical-timeline-element-title">Psychic Game</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, CSS, javascript and JQuery.</h4>
           <p>Try and guess what letter the computer picks by pressing keys. If you guess right, you win a point. If you fail to guess correctly 10 times you loose a point.</p>
@@ -152,7 +155,7 @@ function VerticleTimeline() {
           className="vertical-timeline-element--work"
           date="May 2019"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<img className="contentImage" src={crystalGameImage} />}
+          icon={<img alt="Crystal Game" className="contentImage" src={crystalGameImage} />}
           >
           <h3 className="vertical-timeline-element-title">Crystal Game</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, CSS, javascript and JQuery.</h4>
@@ -164,7 +167,7 @@ function VerticleTimeline() {
           className="vertical-timeline-element--work"
           date="May 2019"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<img className="contentImage" src={triviaGameImage} />}
+          icon={<img alt="Trivia Game" className="contentImage" src={triviaGameImage} />}
 
         >
           <h3 className="vertical-timeline-element-title">Trivia Game</h3>
@@ -177,7 +180,7 @@ function VerticleTimeline() {
           className="vertical-timeline-element--work"
           date="May 2019"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<img className="contentImage" src={gifTasticImage} />}
+          icon={<img  alt="GifTastic" className="contentImage" src={gifTasticImage} />}
         >
           <h3 className="vertical-timeline-element-title">GifTastic</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, CSS, Giphy API, javascript and JQuery.</h4>
@@ -189,7 +192,7 @@ function VerticleTimeline() {
           className="vertical-timeline-element--work"
           date="May 2019"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<img className="contentImage" src={newYorkTimesSearchImage} />}
+          icon={<img alt="New York Times Search " className="contentImage" src={newYorkTimesSearchImage} />}
         >
           <h3 className="vertical-timeline-element-title">New York Times Search</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, CSS, Yelp API, New York City Department of Health API, Google Maps API, javascript and JQuery.</h4>
@@ -204,7 +207,7 @@ function VerticleTimeline() {
           className="vertical-timeline-element--work"
           date="Feburary 2019"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<img className="contentImage" src={zipCrunchImage} />}
+          icon={<img alt="ZipCrunch" className="contentImage" src={zipCrunchImage} />}
 
         >
           <h3 className="vertical-timeline-element-title">ZipCrunch</h3>
