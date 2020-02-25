@@ -13,9 +13,9 @@ function NavBarComponent() {
             <Nav.Link className="navbarStyle" href="/">Home</Nav.Link>
             <Nav.Link className="navbarStyle"  href="portfolio">Portfolio</Nav.Link>
             <NavDropdown className="navbarStyle" color="white" bg="#2c3e50" title="Social" variant="light">
-              <NavDropdown.Item> <a target="_blank" rel="noopener noreferrer" href="https://github.com/chris-warner/">GitHub</a> </NavDropdown.Item>
-              <NavDropdown.Item> <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chris-warner-developer/">LinkedIn</a></NavDropdown.Item>
-              <NavDropdown.Item> <a target="_blank" rel="noopener noreferrer" href="chriswarnertech@gmail.com"> Email</a></NavDropdown.Item>
+              <a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="https://github.com/chris-warner/">GitHub</a> 
+            <a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chris-warner-developer/">LinkedIn</a>
+          <a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="chriswarnertech@gmail.com"> Email</a>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
