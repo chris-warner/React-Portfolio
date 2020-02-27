@@ -11,9 +11,6 @@ import React from 'react';
     <div>
      <Route exact path="/" component={Home} />
      <Route exact path="/portfolio" component={Portfolio} />
-     <Route path="/about" component={About} />
-     <Route path="/" component={Home} exact />
-     <Route path="/portfolio" component={Portfolio} exact/>
      <Route path="/about" component={About}exact />
     </div>
    </HashRouter>
