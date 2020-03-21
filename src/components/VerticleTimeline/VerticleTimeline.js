@@ -2,21 +2,20 @@ import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline-component';
 import './style.min.css';
 import './verticleTimelineContent.css';
-import clickyGameImage from '../../assets/img/clicky-game.jpg';
-import tipCalculatorImage from '../../assets/img/tip.jpeg';
+import clickyGameImage from '../../assets/img/clicky-game.png';
+import tipCalculatorImage from '../../assets/img/tip.png';
 import mindStockImage from '../../assets/img/MindStock.png';
 import friendFinderImage from '../../assets/img/FriendFinder.png';
-import zipCrunchImage from '../../assets/img/zipcrunch.png';
 import buddyImage from '../../assets/img/buddy.png';
-import fugatchImage from '../../assets/img/fugatch.jpeg';
+import fugatchImage from '../../assets/img/fugatch.png';
 import burgerImage from '../../assets/img/burger.png';
 import bamazonImage from'../../assets/img/List Products.png';
 import liriImage from'../../assets/img/liri.png';
-import psychicGameImage from'../../assets/img/technics-q-c-640-480-1.jpg';
-import crystalGameImage from'../../assets/img/technics-q-c-640-480-2.jpg';
-import triviaGameImage from'../../assets/img/technics-q-c-640-480-5.jpg';
-import gifTasticImage from'../../assets/img/technics-q-c-640-480-7.jpg';
-import newYorkTimesSearchImage from'../../assets/img/technics-q-c-640-480-7.jpg';
+import psychicGameImage from'../../assets/img/technics-q-c-640-480-1.png';
+import crystalGameImage from'../../assets/img/technics-q-c-640-480-2.png';
+import triviaGameImage from'../../assets/img/technics-q-c-640-480-5.png';
+import gifTasticImage from'../../assets/img/technics-q-c-640-480-7.png';
+import newYorkTimesSearchImage from'../../assets/img/technics-q-c-640-480-7.png';
 
 
 
@@ -200,23 +199,6 @@ function VerticleTimeline() {
           <div>
             <a href="https://github.com/chris-warner/New-York-Times-Search/">GitHub </a>
             <a href="https://chris-warner.github.io/New-York-Times-Search/">Demo</a>
-          </div>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="Feburary 2019"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<img alt="ZipCrunch" className="contentImage" src={zipCrunchImage} />}
-
-        >
-          <h3 className="vertical-timeline-element-title">ZipCrunch</h3>
-          <h4 className="vertical-timeline-element-subtitle">Technologies used in this project: html, css, Yelp API, New York City Department of Health API, Google Maps API, javascript and JQuery.</h4>
-          <p>
-            Technologies used in this project: html, css, Yelp API, New York City Department of Health API, Google Maps API, javascript and jquery. ZipCrunch consists of a fully functional application that specializes in the process of finding restaurants with the additional feature of rating and review. The eclectic system that is utilized is initiated with a maps api and another review system that remains to be determined. Our product is a proud conglomerate of swift performance and mobile friendly screens. The benefit of a nutritious meal is just a click away!</p>
-          <div>
-            <a href="https://chris-warner.github.io/ZipCrunch/">GitHub</a>
-            <a href="https://chris-warner.github.io/ZipCru…">Demo</a>
           </div>
         </VerticalTimelineElement>
       </VerticalTimeline>
