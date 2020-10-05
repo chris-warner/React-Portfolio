@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "900a1ca2515d474fbb3d451479ee4567",
+    "revision": "8ed39bb4e922841964a65d650bb3c067",
     "url": "/index.html"
   },
   {
-    "revision": "fb3d339a35177e507e0f",
+    "revision": "c32421647f1d6aa3a203",
     "url": "/static/css/main.cba6b577.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.eb418279.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fb3d339a35177e507e0f",
-    "url": "/static/js/main.95ce1d25.chunk.js"
+    "revision": "c32421647f1d6aa3a203",
+    "url": "/static/js/main.c9eb6efe.chunk.js"
   },
   {
     "revision": "dd8147bbe7734801bdde",
@@ -44,6 +44,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/burger.93db960a.png"
   },
   {
+    "revision": "a154f17a13afff5388e17068389fe6fb",
+    "url": "/static/media/chris-warner.a154f17a.png"
+  },
+  {
     "revision": "10c5ff600e6f4ad4f233df209b170052",
     "url": "/static/media/clicky-game.10c5ff60.png"
   },
@@ -54,10 +58,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "98100702ac1dcbaf903b27798d38d58d",
     "url": "/static/media/liri.98100702.png"
-  },
-  {
-    "revision": "1a2191fe9ae291393c395e634a63541a",
-    "url": "/static/media/me.1a2191fe.png"
   },
   {
     "revision": "4846905a57fb9df88ee36c65fb555236",
