@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBarComponent from '../../NavBar/NavBarComponent';
 import FooterComponent from '../../Footer/FooterComponent';
-import me from '../../../assets/img/me.png';
+import me from '../../../assets/images/chris-warner.png';
 import './home.css';
 
 function Home() {

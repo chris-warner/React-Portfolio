@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "1.0.1",
   "private": false,
-  "homepage": "https://www.chriswarner.tech/",
+  "homepage": "https://chris-warner.github.io/React-Portfolio/",
   "license": "MIT",
   "dependencies": {
     "gh-pages": "^2.2.0",
