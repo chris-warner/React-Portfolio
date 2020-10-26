@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.cba6b577.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.9a6120f5.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.9a6120f5.chunk.js.map",
-    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.266d4783.js",
-    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.266d4783.js.map",
-    "static/js/2.eb418279.chunk.js": "/React-Portfolio/static/js/2.eb418279.chunk.js",
-    "static/js/2.eb418279.chunk.js.map": "/React-Portfolio/static/js/2.eb418279.chunk.js.map",
+    "main.js": "/React-Portfolio/static/js/main.10f33e82.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.10f33e82.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.bf13817d.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.bf13817d.js.map",
+    "static/js/2.5d5257ca.chunk.js": "/React-Portfolio/static/js/2.5d5257ca.chunk.js",
+    "static/js/2.5d5257ca.chunk.js.map": "/React-Portfolio/static/js/2.5d5257ca.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "precache-manifest.ab8289a87cfee845fe6c3e0e42443cf0.js": "/React-Portfolio/precache-manifest.ab8289a87cfee845fe6c3e0e42443cf0.js",
+    "precache-manifest.e1c8b9dc0f70279f366327d613ff2876.js": "/React-Portfolio/precache-manifest.e1c8b9dc0f70279f366327d613ff2876.js",
     "service-worker.js": "/React-Portfolio/service-worker.js",
     "static/css/main.cba6b577.chunk.css.map": "/React-Portfolio/static/css/main.cba6b577.chunk.css.map",
-    "static/js/2.eb418279.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.eb418279.chunk.js.LICENSE.txt",
+    "static/js/2.5d5257ca.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.5d5257ca.chunk.js.LICENSE.txt",
     "static/media/FriendFinder.png": "/React-Portfolio/static/media/FriendFinder.015e2ef3.png",
     "static/media/List Products.png": "/React-Portfolio/static/media/List Products.bb595b09.png",
     "static/media/MindStock.png": "/React-Portfolio/static/media/MindStock.86a19a78.png",
@@ -28,9 +28,9 @@
     "static/media/tip.png": "/React-Portfolio/static/media/tip.27234720.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.266d4783.js",
-    "static/js/2.eb418279.chunk.js",
+    "static/js/runtime-main.bf13817d.js",
+    "static/js/2.5d5257ca.chunk.js",
     "static/css/main.cba6b577.chunk.css",
-    "static/js/main.9a6120f5.chunk.js"
+    "static/js/main.10f33e82.chunk.js"
   ]
 }
