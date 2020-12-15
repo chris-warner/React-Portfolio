@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.3c9fe6a2.chunk.css",
-    "main.js": "/static/js/main.61caae5a.chunk.js",
-    "main.js.map": "/static/js/main.61caae5a.chunk.js.map",
+    "main.js": "/static/js/main.fa495f7d.chunk.js",
+    "main.js.map": "/static/js/main.fa495f7d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e312f208.js",
     "runtime-main.js.map": "/static/js/runtime-main.e312f208.js.map",
-    "static/js/2.40e99d08.chunk.js": "/static/js/2.40e99d08.chunk.js",
-    "static/js/2.40e99d08.chunk.js.map": "/static/js/2.40e99d08.chunk.js.map",
+    "static/js/2.16bf9b8e.chunk.js": "/static/js/2.16bf9b8e.chunk.js",
+    "static/js/2.16bf9b8e.chunk.js.map": "/static/js/2.16bf9b8e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1fdaf0906f094e321a06b279c33ed2d8.js": "/precache-manifest.1fdaf0906f094e321a06b279c33ed2d8.js",
+    "precache-manifest.31a1340dae7a1bd60f84c8388c37d473.js": "/precache-manifest.31a1340dae7a1bd60f84c8388c37d473.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.3c9fe6a2.chunk.css.map": "/static/css/main.3c9fe6a2.chunk.css.map",
-    "static/js/2.40e99d08.chunk.js.LICENSE.txt": "/static/js/2.40e99d08.chunk.js.LICENSE.txt",
+    "static/js/2.16bf9b8e.chunk.js.LICENSE.txt": "/static/js/2.16bf9b8e.chunk.js.LICENSE.txt",
     "static/media/FriendFinder.png": "/static/media/FriendFinder.015e2ef3.png",
     "static/media/List Products.png": "/static/media/List Products.bb595b09.png",
     "static/media/MindStock.png": "/static/media/MindStock.86a19a78.png",
@@ -19,6 +19,7 @@
     "static/media/burger.png": "/static/media/burger.93db960a.png",
     "static/media/clicky-game.png": "/static/media/clicky-game.10c5ff60.png",
     "static/media/fugatch.png": "/static/media/fugatch.5c43f236.png",
+    "static/media/gsap_banner_ad.png": "/static/media/gsap_banner_ad.f9bc5d33.png",
     "static/media/liri.png": "/static/media/liri.98100702.png",
     "static/media/me.png": "/static/media/me.1a2191fe.png",
     "static/media/technics-q-c-640-480-1.png": "/static/media/technics-q-c-640-480-1.4846905a.png",
@@ -29,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e312f208.js",
-    "static/js/2.40e99d08.chunk.js",
+    "static/js/2.16bf9b8e.chunk.js",
     "static/css/main.3c9fe6a2.chunk.css",
-    "static/js/main.61caae5a.chunk.js"
+    "static/js/main.fa495f7d.chunk.js"
   ]
 }
