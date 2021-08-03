@@ -17,12 +17,23 @@ import triviaGameImage from '../../assets/images/technics-q-c-640-480-5.png';
 import gifTasticImage from '../../assets/images/technics-q-c-640-480-7.png';
 import newYorkTimesSearchImage from '../../assets/images/technics-q-c-640-480-7.png';
 import gsapBannerAd from '../../assets/images/gsap_banner_ad.png';
-
+import spaceWarp from '../../assets/images/3d_space_warp.png';
 
 function VerticleTimeline() {
   return (
     <div>
       <VerticalTimeline>
+      <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="July 2021"
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          icon={<img alt="3d space warp" className="contentImage" src={spaceWarp} />}
+        >
+          <h3 className="vertical-timeline-element-title">3D Space Warp</h3>
+          <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, Javascript, three.js.</h4>
+          <p> A spacewarp animation created using three.js.</p>
+          <div> <a href="https://github.com/chris-warner/3D-Space-Warp">GitHub </a><a href="https://chris-warner.github.io/3D-Space-Warp/">Demo</a></div>
+        </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
