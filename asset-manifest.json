@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.a578586f.css",
-    "main.js": "/React-Portfolio/static/js/main.982715f9.js",
-    "static/media/clicky-game.png": "/React-Portfolio/static/media/clicky-game.dd4666d69c7f31142ada.png",
-    "static/media/tip.png": "/React-Portfolio/static/media/tip.8e5d0804e24bf05c09ad.png",
-    "static/media/fugatch.png": "/React-Portfolio/static/media/fugatch.7033085541a83e69ef04.png",
-    "static/media/buddy.png": "/React-Portfolio/static/media/buddy.14b40cf5b8cc120e234a.png",
-    "static/media/List Products.png": "/React-Portfolio/static/media/List Products.f546ff7d5a8a74219468.png",
-    "static/media/gsap_banner_ad.png": "/React-Portfolio/static/media/gsap_banner_ad.a2cabf020b88ef9b4012.png",
-    "static/media/FriendFinder.png": "/React-Portfolio/static/media/FriendFinder.537660a18906a280ee2e.png",
-    "static/media/technics-q-c-640-480-2.png": "/React-Portfolio/static/media/technics-q-c-640-480-2.e452c8bc646265df7128.png",
-    "static/media/me.png": "/React-Portfolio/static/media/me.33ff250e082fc0a063ed.png",
-    "static/media/technics-q-c-640-480-7.png": "/React-Portfolio/static/media/technics-q-c-640-480-7.c9f8fc08fee2dcb12e2e.png",
-    "static/media/MindStock.png": "/React-Portfolio/static/media/MindStock.6bc32180fde4e26012c1.png",
-    "static/media/burger.png": "/React-Portfolio/static/media/burger.32594edd647320b27102.png",
-    "static/media/3d_space_warp.png": "/React-Portfolio/static/media/3d_space_warp.91e6146efcf2f9aba6d6.png",
-    "static/media/technics-q-c-640-480-1.png": "/React-Portfolio/static/media/technics-q-c-640-480-1.3f42f901ddc914c1cf77.png",
-    "static/media/technics-q-c-640-480-5.png": "/React-Portfolio/static/media/technics-q-c-640-480-5.b277985fd1d78590a636.png",
-    "static/media/liri.png": "/React-Portfolio/static/media/liri.07aa96fa6b89e374e1fd.png",
-    "index.html": "/React-Portfolio/index.html",
-    "main.a578586f.css.map": "/React-Portfolio/static/css/main.a578586f.css.map",
-    "main.982715f9.js.map": "/React-Portfolio/static/js/main.982715f9.js.map"
+    "main.css": "./static/css/main.a578586f.css",
+    "main.js": "./static/js/main.7fe93cbb.js",
+    "static/media/clicky-game.png": "./static/media/clicky-game.dd4666d69c7f31142ada.png",
+    "static/media/tip.png": "./static/media/tip.8e5d0804e24bf05c09ad.png",
+    "static/media/fugatch.png": "./static/media/fugatch.7033085541a83e69ef04.png",
+    "static/media/buddy.png": "./static/media/buddy.14b40cf5b8cc120e234a.png",
+    "static/media/List Products.png": "./static/media/List Products.f546ff7d5a8a74219468.png",
+    "static/media/gsap_banner_ad.png": "./static/media/gsap_banner_ad.a2cabf020b88ef9b4012.png",
+    "static/media/FriendFinder.png": "./static/media/FriendFinder.537660a18906a280ee2e.png",
+    "static/media/technics-q-c-640-480-2.png": "./static/media/technics-q-c-640-480-2.e452c8bc646265df7128.png",
+    "static/media/me.png": "./static/media/me.33ff250e082fc0a063ed.png",
+    "static/media/technics-q-c-640-480-7.png": "./static/media/technics-q-c-640-480-7.c9f8fc08fee2dcb12e2e.png",
+    "static/media/MindStock.png": "./static/media/MindStock.6bc32180fde4e26012c1.png",
+    "static/media/burger.png": "./static/media/burger.32594edd647320b27102.png",
+    "static/media/3d_space_warp.png": "./static/media/3d_space_warp.91e6146efcf2f9aba6d6.png",
+    "static/media/technics-q-c-640-480-1.png": "./static/media/technics-q-c-640-480-1.3f42f901ddc914c1cf77.png",
+    "static/media/technics-q-c-640-480-5.png": "./static/media/technics-q-c-640-480-5.b277985fd1d78590a636.png",
+    "static/media/liri.png": "./static/media/liri.07aa96fa6b89e374e1fd.png",
+    "index.html": "./index.html",
+    "main.a578586f.css.map": "./static/css/main.a578586f.css.map",
+    "main.7fe93cbb.js.map": "./static/js/main.7fe93cbb.js.map"
   },
   "entrypoints": [
     "static/css/main.a578586f.css",
-    "static/js/main.982715f9.js"
+    "static/js/main.7fe93cbb.js"
   ]
 }
