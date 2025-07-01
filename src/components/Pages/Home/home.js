@@ -14,8 +14,9 @@ function Home() {
                     <div className="home-title">CHRIS WARNER</div>
                     <div className="home-subtitle">Web Designer &ndash; Full Stack Development</div>
                     <div className="home-description">
-                        My name is Chris Warner. I am a Full Stack Developer as well as a graduate of Columbia University. I have a strong commitment to teamwork and highly motivated to help others succeed. I started programming C# in the 7th grade and worked in the computer repair industry. I am also a musician and have worked on ambitious music productions and indie films. I am highly creative in regards to problem-solving and innovation development, and I have taken my creativity and applied it to my programming. My skills include HTML5, CSS, M.E.R.N development stack, MySQL, MongoDB, React, JavaScript, HandleBars, MVC, as well as the ability to learn new languages quickly. During my studies, I have developed an app that generates a personalized investing strategy (Mindstock) and another that allows you to find top notch restaurants (ZipCrunch). For my final project I developed a platform that allows you to rent dogs from local shelters.
-                    </div>
+I’m a Full Stack Developer with a strong background in React, Next.js, Vue, and modern web technologies. I’ve led development projects at ConcentricLife and Accenture Song, working across front-end, back-end, and everything in between. My experience includes building full-scale websites, email campaigns, and interactive banner ads, along with mentoring junior developers and collaborating with cross-functional teams.
+<br></br><br></br>
+I’ve worked with tools like AWS, WordPress, MySQL, MongoDB, Node.js, AEM, and Tailwind, and I’m comfortable exporting assets from Figma, Photoshop, and Sketch for seamless integration into projects. I focus on clean, efficient code and building solutions that help teams move faster and deliver great work.                    </div>
                 </div>
             </div>
             <FooterComponent/>
