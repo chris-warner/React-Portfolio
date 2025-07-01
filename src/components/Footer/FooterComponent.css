@@ -1,5 +1,10 @@
 .footer {
-    height: 56px;
-    color: white;
-    background: #4285f4;
+  height: 56px;
+  color: #fff;
+  background: linear-gradient(90deg, #2196f3 60%, #21cbf3 100%);
+  box-shadow: 0 -2px 8px rgba(33,150,243,0.08);
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

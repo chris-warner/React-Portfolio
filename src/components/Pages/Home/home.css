@@ -3,3 +3,70 @@ img {
     border-radius: 25%;
     margin-top:16px;
 }
+
+.home-hero {
+  background: rgba(255,255,255,0.95);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(33, 150, 243, 0.10), 0 2px 8px rgba(0,0,0,0.06);
+  padding: 48px 36px 36px 36px;
+  margin: 48px auto 0 auto;
+  max-width: 480px;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.2s;
+}
+
+.home-hero:hover {
+  box-shadow: 0 16px 48px rgba(33, 150, 243, 0.18), 0 4px 16px rgba(0,0,0,0.10);
+}
+
+.home-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 12px rgba(33, 150, 243, 0.10);
+  margin-bottom: 24px;
+}
+
+.home-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #2196f3;
+  margin-bottom: 6px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.home-subtitle {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 24px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.home-description {
+  max-width: 420px;
+  font-size: 1.04rem;
+  color: #222;
+  text-align: center;
+  line-height: 1.7;
+  margin-bottom: 0;
+  word-break: break-word;
+}
+
+@media (max-width: 600px) {
+  .home-hero {
+    padding: 24px 8px 24px 8px;
+    max-width: 98vw;
+  }
+  .home-title {
+    font-size: 1.4rem;
+  }
+  .home-description {
+    font-size: 0.98rem;
+  }
+}
