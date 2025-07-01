@@ -24,13 +24,4 @@ I’ve worked with tools like AWS, WordPress, MySQL, MongoDB, Node.js, AEM, and 
     );
 }
 
-const centerText = {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginTop: '50px',
-    textAlign: 'center',
-    color: 'black'
-}
-
 export default Home;
