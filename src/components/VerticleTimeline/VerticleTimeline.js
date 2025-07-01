@@ -23,7 +23,39 @@ function VerticleTimeline() {
   return (
     <div>
       <VerticalTimeline>
-      <VerticalTimelineElement
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Mar 18, 2024"
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          icon={
+            <span
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                fontWeight: 'bold',
+                fontSize: '1.5rem',
+                height: '100%',
+                width: '100%',
+              }}
+            >
+              AI
+            </span>
+          }
+        >
+          <h3 className="vertical-timeline-element-title">Transformers.js + Next.js (Client-Side AI Playground)</h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Technologies used: Next.js, Hugging Face Transformers.js, Web Workers, JavaScript.
+          </h4>
+          <p>
+            A browser-based AI playground that runs lightweight language models entirely on the client side using Next.js and Hugging Face’s Transformers.js. This project demonstrates how to deliver responsive, privacy-friendly AI experiences without relying on backend infrastructure or API keys. Web Workers keep the UI smooth while handling model inference in the background.
+          </p>
+          <div>
+            <a href="https://github.com/chris-warner/transformers.js-next.js" target="_blank" rel="noopener noreferrer">GitHub </a>
+            <a href="https://main--transformersjs-nextjs.netlify.app" target="_blank" rel="noopener noreferrer">Demo</a>
+          </div>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="July 2021"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -32,7 +64,7 @@ function VerticleTimeline() {
           <h3 className="vertical-timeline-element-title">3D Space Warp</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, Javascript, three.js.</h4>
           <p> A spacewarp animation created using three.js.</p>
-          <div> <a href="https://github.com/chris-warner/3D-Space-Warp">GitHub </a><a href="https://chris-warner.github.io/3D-Space-Warp/">Demo</a></div>
+          <div> <a href="https://github.com/chris-warner/3D-Space-Warp" target="_blank" rel="noopener noreferrer">GitHub </a><a href="https://chris-warner.github.io/3D-Space-Warp/" target="_blank" rel="noopener noreferrer">Demo</a></div>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -44,7 +76,7 @@ function VerticleTimeline() {
           <h3 className="vertical-timeline-element-title">GSAP Banner Ad</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, GSAP, Javascript.</h4>
           <p> A simple Banner Ad created using the GSAP animation library.</p>
-          <div> <a href="https://github.com/chris-warner/gsap-animation">GitHub </a><a href="https://chris-warner.github.io/gsap-animation/">Demo</a></div>
+          <div> <a href="https://github.com/chris-warner/gsap-animation" target="_blank" rel="noopener noreferrer">GitHub </a><a href="https://chris-warner.github.io/gsap-animation/" target="_blank" rel="noopener noreferrer">Demo</a></div>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -56,7 +88,7 @@ function VerticleTimeline() {
           <h3 className="vertical-timeline-element-title">Fugatch</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, Bootstrap.</h4>
           <p> Fugatch is a simple HTML website created for my client to post videos about his watch collection.</p>
-          <div> <a href="https://github.com/chris-warner/fugatch">GitHub </a><a href="https://www.fugatch.com">Demo</a></div>
+          <div> <a href="https://github.com/chris-warner/fugatch" target="_blank" rel="noopener noreferrer">GitHub </a><a href="https://www.fugatch.com" target="_blank" rel="noopener noreferrer">Demo</a></div>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -68,7 +100,7 @@ function VerticleTimeline() {
           <h3 className="vertical-timeline-element-title">Buddy</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, Bootstrap, React, Express, Sequelize, MySQL, Firebase.</h4>
           <p>Buddy is a full stack MERN application created that allows people to rent dogs from local shelters.</p>
-          <div><a href="https://github.com/0dbtech/columbia-project3">GitHub </a><a href="https://aqueous-castle-76510.herokuapp.com/">Demo</a></div>
+          <div><a href="https://github.com/0dbtech/columbia-project3" target="_blank" rel="noopener noreferrer">GitHub </a><a href="https://aqueous-castle-76510.herokuapp.com/" target="_blank" rel="noopener noreferrer">Demo</a></div>
         </VerticalTimelineElement>
 
 
@@ -82,7 +114,7 @@ function VerticleTimeline() {
           <h3 className="vertical-timeline-element-title">React Tip Calculator</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: React and Javascript.</h4>
           <p>Tip calculator is a simple application that allow you to calculate a tip for your server. One of it's key features is the ability to divide the tip between multiple people. Simply fill out the form and click calculate and see the results.</p>
-          <div> <a href="https://github.com/chris-warner/Career-Services-Coding-Challenge---Tip-Calculator">GitHub </a><a href="https://chris-warner.github.io/Career-Services-Coding-Challenge---Tip-Calculator/">Demo</a></div>
+          <div> <a href="https://github.com/chris-warner/Career-Services-Coding-Challenge---Tip-Calculator" target="_blank" rel="noopener noreferrer">GitHub </a><a href="https://chris-warner.github.io/Career-Services-Coding-Challenge---Tip-Calculator/" target="_blank" rel="noopener noreferrer">Demo</a></div>
         </VerticalTimelineElement>
 
 
@@ -95,7 +127,7 @@ function VerticleTimeline() {
           <h3 className="vertical-timeline-element-title">MindStock</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: : HTML, CSS, Node.js, Express, handlebars, Sequelize, Heroku, JawsDB, MySQL. .</h4>
           <p>MindStock uses a personality assessment to figure out risk tolerance to help investors pick the right fund for them. It provides a starter guide through what a mutual fund is and what information is relevant to navigate the investment universe.</p>
-          <div><a href="https://github.com/chris-warner/Mindstock">GitHub </a><a href="https://quiet-cove-26973.herokuapp.com/">Demo</a></div>
+          <div><a href="https://github.com/chris-warner/Mindstock" target="_blank" rel="noopener noreferrer">GitHub </a><a href="https://quiet-cove-26973.herokuapp.com/" target="_blank" rel="noopener noreferrer">Demo</a></div>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -108,7 +140,7 @@ function VerticleTimeline() {
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: React.</h4>
           <p>Test your memory with Clicky Game. Click an image to begin, try not click the same image twice. Technologies used in this project: React, React-Bootstrap.
 </p>
-          <div> <a href="https://github.com/chris-warner/clicky-game">GitHub </a><a href="https://chris-warner.github.io/clicky-game/">Demo</a></div>
+          <div> <a href="https://github.com/chris-warner/clicky-game" target="_blank" rel="noopener noreferrer">GitHub </a><a href="https://chris-warner.github.io/clicky-game/" target="_blank" rel="noopener noreferrer">Demo</a></div>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -120,7 +152,7 @@ function VerticleTimeline() {
           <h3 className="vertical-timeline-element-title">Eat Da Burger</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project:  HTML, CSS, Node.js, Express, Handlebars, Sequelize, Heroku, JawsDB, MySQL.</h4>
           <p>Eat Da Burger is a node applicastion that utilized express, express-handlebars and mysql. Enter a burger in the textbox and hit submit to add the burger to the queue. This adds a burger to the table in mysql. Hit Devour It to "devour" the burger, and check "devoured" in said database to true.</p>
-          <div> <a href="https://github.com/chris-warner/burger    ">GitHub </a><a href="https://fathomless-journey-20923.herokuapp.com/">Demo</a></div>
+          <div> <a href="https://github.com/chris-warner/burger    " target="_blank" rel="noopener noreferrer">GitHub </a><a href="https://fathomless-journey-20923.herokuapp.com/" target="_blank" rel="noopener noreferrer">Demo</a></div>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -132,7 +164,7 @@ function VerticleTimeline() {
           <h3 className="vertical-timeline-element-title">FriendFinder</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, CSS, Node.js, Express, Sequelize, Heroku.</h4>
           <p>Friend finder is a survey that finds your most compatible match. It takes your survey data and compares it to a list of prior results to find the person most compatible with your personality traits.</p>
-          <div> <a href="https://github.com/chris-warner/FriendFinder">GitHub </a><a href="https://afternoon-temple-47575.herokuapp.com/">Demo</a></div>
+          <div> <a href="https://github.com/chris-warner/FriendFinder" target="_blank" rel="noopener noreferrer">GitHub </a><a href="https://afternoon-temple-47575.herokuapp.com/" target="_blank" rel="noopener noreferrer">Demo</a></div>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -144,7 +176,7 @@ function VerticleTimeline() {
           <h3 className="vertical-timeline-element-title">bamazon</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: Javascript, Node.js, MySQL and express. Bamazon is an Amazon-like storefront utilizing Node and MySQL. </h4>
           <p>To use it, type node bamazonCustomer.js in the terminal. You will be presented with a database of products. Enter the product ID you would like to to purchase and quantity of items in the following terminal prompt. If there are enough items in stock, the purchase will be successful and you will be presented with the order total. The stock_quantity field will then be updated in mysql to reflect the current value. This is a program that runs in the terminal so there is no live demo.</p>
-          <div> <a href="https://github.com/chris-warner/bamazon">GitHub </a></div>
+          <div> <a href="https://github.com/chris-warner/bamazon" target="_blank" rel="noopener noreferrer">GitHub </a></div>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -155,7 +187,7 @@ function VerticleTimeline() {
           <h3 className="vertical-timeline-element-title">Liri Node App</h3>
           <h4 className="vertical-timeline-element-subtitle"> Javascript, Node.js, axios, dotenv, Spotify API, Bands in Town API. </h4>
           <p>Use Liri to find the latest Concerts, Bands, and songs you love, from your console. Using Spotify, Bandsintown and omdb, Liri can retrieve concert dates for your favorite bands, movie information for your favorite films, song information for you favorite songs. This is a program that runs in the terminal so there is no live demo.</p>
-          <div> <a href="https://github.com/chris-warner/liri-node-app">GitHub </a></div>
+          <div> <a href="https://github.com/chris-warner/liri-node-app" target="_blank" rel="noopener noreferrer">GitHub </a></div>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -166,7 +198,7 @@ function VerticleTimeline() {
           <h3 className="vertical-timeline-element-title">Psychic Game</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, CSS, javascript and JQuery.</h4>
           <p>Try and guess what letter the computer picks by pressing keys. If you guess right, you win a point. If you fail to guess correctly 10 times you loose a point.</p>
-          <div>  <a href="https://github.com/chris-warner/Psychic-Game/">GitHub </a><a href="https://chris-warner.github.io/Psychic-Game/">Demo</a></div>
+          <div>  <a href="https://github.com/chris-warner/Psychic-Game/" target="_blank" rel="noopener noreferrer">GitHub </a><a href="https://chris-warner.github.io/Psychic-Game/" target="_blank" rel="noopener noreferrer">Demo</a></div>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -178,7 +210,7 @@ function VerticleTimeline() {
           <h3 className="vertical-timeline-element-title">Crystal Game</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, CSS, javascript and JQuery.</h4>
           <p>You will be given a random number at the start of the game. There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. You win the game by matching your total score to the random number, you lose if the total score goes above the random number. The value of each crystal is hidden from you until you click on it. Each time when the game starts, the game will change the values of each crystal. </p>
-          <div> <a href="https://chris-warner.github.io/unit-4-game/">GitHub </a><a href="https://chris-warner.github.io/Crystal-Collector/">Demo</a></div>
+          <div> <a href="https://chris-warner.github.io/unit-4-game/" target="_blank" rel="noopener noreferrer">GitHub </a><a href="https://chris-warner.github.io/Crystal-Collector/" target="_blank" rel="noopener noreferrer">Demo</a></div>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -191,7 +223,7 @@ function VerticleTimeline() {
           <h3 className="vertical-timeline-element-title">Trivia Game</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, CSS, javascript and JQuery.</h4>
           <p>Technologies used in this project: html, css, javascript and jquery. You have 30 seconds to answer the trivia questions. When the timer counts down to zero, you will be presented with the score displaying how many questions you answered correctly, how many you answered incorrectly and how many questions you didn't answer. </p>
-          <div> <a href="https://github.com/chris-warner/TriviaGame">GitHub </a><a href="https://chris-warner.github.io/TriviaGame/">Demo</a></div>
+          <div> <a href="https://github.com/chris-warner/TriviaGame" target="_blank" rel="noopener noreferrer">GitHub </a><a href="https://chris-warner.github.io/TriviaGame/" target="_blank" rel="noopener noreferrer">Demo</a></div>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -203,7 +235,7 @@ function VerticleTimeline() {
           <h3 className="vertical-timeline-element-title">GifTastic</h3>
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, CSS, Giphy API, javascript and JQuery.</h4>
           <p>This program displays animal gifs based on the selected animal button. If the animal you would like to search for doesn't exist, type in the name of the animal in the text field and hit submit. This will add the animal to the list of animal buttons. Click the buttons search giphy for animated img! </p>
-          <div>  <a href="https://github.com/chris-warner/GifTastic">GitHub </a><a href="https://chris-warner.github.io/GifTastic/">Demo</a></div>
+          <div>  <a href="https://github.com/chris-warner/GifTastic" target="_blank" rel="noopener noreferrer">GitHub </a><a href="https://chris-warner.github.io/GifTastic/" target="_blank" rel="noopener noreferrer">Demo</a></div>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -216,8 +248,8 @@ function VerticleTimeline() {
           <h4 className="vertical-timeline-element-subtitle"> Technologies used in this project: HTML, CSS, Yelp API, New York City Department of Health API, Google Maps API, javascript and JQuery.</h4>
           <p>This project utilized the New York Times API to search there archive. You can a start and date to narrow down your search results.</p>
           <div>
-            <a href="https://github.com/chris-warner/New-York-Times-Search/">GitHub </a>
-            <a href="https://chris-warner.github.io/New-York-Times-Search/">Demo</a>
+            <a href="https://github.com/chris-warner/New-York-Times-Search/" target="_blank" rel="noopener noreferrer">GitHub </a>
+            <a href="https://chris-warner.github.io/New-York-Times-Search/" target="_blank" rel="noopener noreferrer">Demo</a>
           </div>
         </VerticalTimelineElement>
       </VerticalTimeline>
