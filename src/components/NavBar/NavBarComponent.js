@@ -7,13 +7,13 @@ function NavBarComponent() {
   return (
     <div>
       <Navbar className="navbarStyle" expand="md" variant="light" sticky="top">
-        <Navbar.Brand as={Link} to="/">React-Portfolio</Navbar.Brand> {/* Use Link component for internal navigation */}
+        <Navbar.Brand as={Link} to="/">Chris Warner</Navbar.Brand> {/* Use Link component for internal navigation */}
         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link as={Link} to="/">Home</Nav.Link> {/* Use Link component for internal navigation */}
             <Nav.Link as={Link} to="/portfolio">Portfolio</Nav.Link> {/* Use Link component for internal navigation */}
-            <Nav.Link href="/Christopher_Warner_Resume_2024.pdf" download>
+            <Nav.Link href="/Christopher_Warner_Resume_2025.pdf" download>
               Resume
             </Nav.Link>
             <NavDropdown

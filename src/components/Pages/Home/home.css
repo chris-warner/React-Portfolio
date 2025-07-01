@@ -4,6 +4,17 @@ img {
     margin-top:16px;
 }
 
+body, html, #root {
+  height: 100%;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .home-hero {
   background: rgba(255,255,255,0.95);
   border-radius: 18px;
@@ -16,6 +27,8 @@ img {
   flex-direction: column;
   align-items: center;
   transition: box-shadow 0.2s;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .home-hero:hover {
@@ -62,6 +75,13 @@ img {
   .home-hero {
     padding: 24px 8px 24px 8px;
     max-width: 98vw;
+    margin-top: 12px; /* Reduce top margin on small screens */
+    margin-bottom: 12px;
+  }
+  .container {
+    align-items: flex-start;
+    min-height: unset;
+    padding-bottom: 24px;
   }
   .home-title {
     font-size: 1.4rem;
